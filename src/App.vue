@@ -1,6 +1,7 @@
 <template>
+  <div class="header">@狗老师版权所有</div>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="欢迎门外大人"/>
 </template>
 
 <script>
@@ -22,5 +23,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.header {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
 }
 </style>
