@@ -23,12 +23,15 @@
     <footer class="site-footer">
       © 2025 狗老师特别献给门外大人 | 永远支持你
     </footer>
+    <PetDog />
   </div>
 </template>
 
 <script>
+import PetDog from './components/PetDog.vue'
 export default {
-  name: 'App'
+  name: 'App',
+  components: { PetDog }
 }
 </script>
 
